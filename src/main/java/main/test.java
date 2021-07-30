@@ -1,6 +1,6 @@
 package main;
 
-import mail.mailService.ReplyEmail;
+import mail.service.ReplyEmail;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -30,6 +30,13 @@ public class test {
         ReplyEmail replyEmail = new ReplyEmail(email, password);
     }
 }
+
+
+
+
+
+
+
 
 
 
